@@ -10,9 +10,9 @@ export const config = {
   deploymentOrigin: MDXBlogConfig.deploymentOrigin,
   socialMedia: {
     handles: {
-      gitHub: 'pkerschbaum',
+      gitHub: 'patricktree',
       linkedIn: 'pkerschbaum',
-      bsky: 'pkerschbaum.com',
+      bsky: 'patricktree.me',
     },
   },
   canonicalTLDPlus1: 'pkerschbaum.com',

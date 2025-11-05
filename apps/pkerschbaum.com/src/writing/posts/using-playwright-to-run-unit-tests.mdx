@@ -136,11 +136,11 @@ I think there are some advantages of using Playwright for unit tests:
 
 Compared to Jest, there are some things missing from Playwright Test which are often needed when running unit tests.  
 Most of those things can be substituted by using libraries of the Node.js ecosystem.  
-Take a look at <FancyAnchor href="https://github.com/pkerschbaum/blog-playwright-for-unit-tests_example">the example repository I made</FancyAnchor> to see how to set up those things!
+Take a look at <FancyAnchor href="https://github.com/patricktree/blog-playwright-for-unit-tests_example">the example repository I made</FancyAnchor> to see how to set up those things!
 
 - For **Mocks & Spies** use [`sinon`](https://www.npmjs.com/package/sinon) or [`jest-mock`](https://www.npmjs.com/package/jest-mock) (the mocking solution shipped with Jest).
-- For **Fake timers** use [`sinon`](https://www.npmjs.com/package/sinon) (<FancyAnchor href="https://github.com/pkerschbaum/blog-playwright-for-unit-tests_example/compare/code-coverage...fake-timers">See code changes</FancyAnchor>).
-- **Code coverage** just needs a simple combination of the command-line interface [`nyc`](https://github.com/istanbuljs/nyc) of Istanbul (a code coverage tool for JavaScript) and [`source-map-support`](https://www.npmjs.com/package/source-map-support) (<FancyAnchor href="https://github.com/pkerschbaum/blog-playwright-for-unit-tests_example/compare/base-setup...code-coverage">See code changes</FancyAnchor>).
+- For **Fake timers** use [`sinon`](https://www.npmjs.com/package/sinon) (<FancyAnchor href="https://github.com/patricktree/blog-playwright-for-unit-tests_example/compare/code-coverage...fake-timers">See code changes</FancyAnchor>).
+- **Code coverage** just needs a simple combination of the command-line interface [`nyc`](https://github.com/istanbuljs/nyc) of Istanbul (a code coverage tool for JavaScript) and [`source-map-support`](https://www.npmjs.com/package/source-map-support) (<FancyAnchor href="https://github.com/patricktree/blog-playwright-for-unit-tests_example/compare/base-setup...code-coverage">See code changes</FancyAnchor>).
 - There is experimental support for **Watch mode** at the time of writing, see <FancyAnchor href="https://github.com/microsoft/playwright/issues/21960#issuecomment-1483604692">AUTOGENERATE</FancyAnchor>.  
   Set environment variable `PWTEST_WATCH=1` when running Playwright.
 - Some test frameworks provide a way to **mock CommonJS/ECMAScript modules**.  

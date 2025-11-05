@@ -70,7 +70,7 @@ export const ArticleContainerBlogPost: React.FC<ArticleContainerBlogPostProps> =
             <p>
               Great, then let&apos;s keep in touch!{' '}
               <Anchor
-                href="https://bsky.app/profile/pkerschbaum.com"
+                href="https://bsky.app/profile/patricktree.me"
                 target="_blank"
                 rel="noopener noreferrer"
               >
